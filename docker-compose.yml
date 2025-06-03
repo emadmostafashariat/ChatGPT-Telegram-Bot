@@ -1,12 +1,12 @@
 version: "3.5"
 services:
   chatgptbot:
-    container_name: chatgptbot
-    image: yym68686/chatgpt:latest
+    container_name: Codera™-AICHAT
+    image: assets/photo_1_2025-06-03_16-37-47.jpg
     environment:
-      - BOT_TOKEN=
-      - API=
-      - API_URL=
+      - BOT_TOKEN=7506778480:AAFei6kO1qaAhcbClTxVI0rkWD4M4CQ8RZ8
+      - API=AIzaSyA4zY1d9q81m4hLUYEftphADcUJP31ux-0
+      - API_URL=https://generativelanguage.googleapis.com
     volumes:
       - ./user_configs:/home/user_configs
     ports:
