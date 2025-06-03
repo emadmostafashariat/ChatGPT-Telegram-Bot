@@ -2,7 +2,7 @@ version: "3.5"
 services:
   chatgptbot:
     container_name: Codera™-AICHAT
-    image: assets/photo_1_2025-06-03_16-37-47.jpg
+    image: yym68686/chatgpt:latest
     environment:
       - BOT_TOKEN=7506778480:AAFei6kO1qaAhcbClTxVI0rkWD4M4CQ8RZ8
       - API=AIzaSyA4zY1d9q81m4hLUYEftphADcUJP31ux-0
