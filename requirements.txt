@@ -1,6 +1,7 @@
 --index-url https://pypi.python.org/simple/
 python-dotenv
-pip install -U "python-telegram-bot[rate-limiter]==20.6"
+python-telegram-bot[rate-limiter]==20.6
+
 
 
 pytz
